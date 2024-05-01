@@ -1,11 +1,17 @@
-Q1: IMS platformunun belirlenmesi
+---
+title: "Work Smarter Introduction"
+output:
+  html_document:
+    df_print: paged
+---
+
+## Q1: IMS platformunun belirlenmesi
 
 Senaryomuz gereği seçeceğimiz CRM’i seçerken göz önüne aldığımız bazı kriterler vardı: Kullanımının kolay olması, open source olması, çok amaçlı olması ve temiz/anlaşılır bir dokümantasyonu bulunması. Bu kriterler çerçevesinde seçtiğimiz platform SugarCRM oldu. Bu platform, sayfasında da belirttiği gibi v1-v4 sürümlerinin ticari kullanım dahil kullanılabileceğini belirtmiş.
 SugarCRM, Silicon Valley merkezli bir yazılım şirketidir. Şirket, müşteri ilişkileri yönetimi (CRM) sistemi olan Sugar isimli bulut tabanlı ve şirket içinde kullanılan web uygulamasını geliştirmektedir. SugarCRM'in işlevleri arasında satış gücü otomasyonu, pazarlama kampanyaları, müşteri desteği, işbirliği, Mobil CRM, Sosyal CRM ve raporlama yer alır.
 IMS olarak CRM seçmemizin ve özellikle de bu CRM’i tercih etmemizin nedeni; grubumuzun deneyimlerinden yola çıkarak karar verdiğimiz iş modeli için yeterli imkanları sağlaması.
 
--------------------------------------------------------------------------------------------------------------------
-** Q2: Dataset tanımı ** 
+## Q2: Dataset tanımı
 
 Global Super Store Dataset : https://www.kaggle.com/datasets/apoorvaappz/global-super-store-dataset
 Dataset csv formatındadır. 
@@ -31,8 +37,7 @@ Veritabanına Bağlanmak: Doğrudan MySQL ile verileri çekebiliriz.
 
 Senaryomuz için gereken veri tam olarak istediğimiz formatta olamayacağı için bu verilere ek olarak bu veriler için gereken sütunlar yaratılabilir.
 
----------------------------------------------------------------------------------------------------------------------
-Q3: İş tanımı
+## Q3: İş tanımı
 Bu şirket, Müşteri Konum Optimizasyonu (MKO) hizmeti sunan bir danışmanlık firmasıdır. İş modeli, müşterilerin veri analizi ve karar alma süreçlerini desteklemek için bir Bilgi Yönetim Sistemi (IMS) olan Customer Relationship Management (CRM) Systems kullanmaktadır. IMS, müşterilerin sahip olduğu verileri işler ve analiz eder, böylece müşterinin hangi lokasyonlarda daha verimli şubeler açabileceğine dair stratejik kararlar alınabilir.
 
 Şirketin ana aktiviteleri şunlardır:
@@ -58,7 +63,6 @@ Rakiplerin de benzer hizmetleri sunması ve pazar rekabetinin yoğunluğu.
 
 Örneğin büyük bir danışmanlık firması olan "DataInsights" rakip olabilir. DataInsights, geniş bir müşteri tabanına ve büyük bir veri analizi ekibine sahiptir. Bu durum, daha geniş kapsamlı projelerde çalışma ve daha büyük veri setlerini işleme avantajı sağlar. Ancak, bu büyük yapılarından dolayı, bazı durumlarda müşterilere daha genel ve özelleştirilmemiş çözümler sunma eğilimindedirler. Bu durum, daha küçük ve esnek bir firma olarak bizim, müşterilere daha özelleştirilmiş ve dikkatli bir şekilde tasarlanmış hizmetler sunma avantajımız olabilir.
 
-----------------------------------------------------------------------------------------------------------------------
-Q4: İyileştirme (optimizasyon) stratejisi
+## Q4: İyileştirme (optimizasyon) stratejisi
 Kurguladığımız şirketin iş modelinin bir örneğini uygulayarak; müşterimizin yeni açılacak şubesinin, hangi şube türünde ve hangi lokasyonda açabileceğinin analizini yapacağız. Bu analizi yine bir özgür yazılım olan leatlet haritası üzerinde görselleştireceğiz.
 
